@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #540b0e;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Potta One';
+    margin-top: 40px;
+    font-size: 110px;
+    text-align: center;
+}
+
+form{
+    font-size: 40px;
+    margin-top: 40px;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+button{
+    margin: 20px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    color: black;
+    background-color:#540b0e;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+    font-size: 20px;
+    transition: 1s;
+}
+button:hover {
+    letter-spacing: 2px;
+    background-color: #000;
+    border-color: #540b0e;
+    color:#540b0e;
+}
+p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+.checkbox{
+    width: 1.4em;
+    height: 1.4em;
+    margin: 10px 20px;
+    font-size: 20px;
+    
+}
+:checked{
+   box-shadow: 0 0 0 3px black;
+}
